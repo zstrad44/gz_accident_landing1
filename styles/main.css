@@ -150,7 +150,7 @@ hr {
     margin: -15px;
     margin-bottom: 25px;
     ;
-    background-color: indianred;
+    background-color: #CD5C5C;
     text-align: center;
     color: #efefef;
     font-size: 2.1em;
@@ -230,3 +230,166 @@ hr {
 
 
 /*Contact Form Styles END*/
+
+/*Subhead Styles Start*/
+
+.subheadline h2 {
+    
+    margin-top: -20px;
+    font-size: 2.9em;
+    background-color: #0081ba;
+    color: #fff;
+    width: 103%;
+    padding-bottom: 17px;
+    margin-left: -1.6%;
+    margin-bottom: -10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.subheadBox {
+    
+    background-color: #efefef;
+    height: auto;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    
+}
+
+.subhead {
+    
+    
+    
+    
+}
+
+.subhead h3 {
+	font-size: 2.5em;
+    color: #7e7e7e;
+}
+.subhead .subhead-hr {
+	width: 150;
+    height: 5px;
+    background-color: #ffae19;
+    border-style: none;
+    margin-top: -12px;
+    
+}
+.subhead .subhead-hrthin {
+	border-style: none;
+    height: .5px;
+    background-color: #d3d3d3;
+    padding: 0px;
+    margin-top: 15px;
+    
+    
+}
+
+.subhead button {
+    width: 250px;
+    height: 65px;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 900;
+}
+.subhead .contact {
+    background-color: #CD5C5C;
+	margin-left: 16%;
+    margin-right: 30px;
+}
+.subhead .about {
+    background-color: #ffae19;
+}
+
+.subhead .contact:hover {
+    background-color: #a44949;
+    margin-left: 16%;
+    margin-right: 30px;
+    color: #fff;
+}
+.subhead .about:hover {
+    background-color: #e59400;
+    color: #fff;
+}
+
+
+
+.subhead p {
+    text-align: center;
+    padding: 10px;
+	font-size: 1.9em;
+}
+.subhead .or {
+	margin-top: 10px;
+    padding-bottom: 0px;
+}
+.subhead .call {
+	font-size: 4.2em;
+    color: #000;
+    
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+
+/*Subead Styles END*/
+
+
+
+/*main-content Styles START*/
+.main-content {
+    
+    
+}
+.main-content .sidefill {
+    
+    height: 240px;
+    position: inherit;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.main-content .spacer {
+    height: 70px;
+}
+
+.main-content .content-area-1 {
+    height: auto;
+    margin-top: 20px;
+    padding: 0px;
+    float: right;
+}
+
+.content-area-1 h3 {
+	font-size: 2.4em;
+    color: #0081ba;
+    margin-bottom: 5px;
+}
+.content-area-1 hr {
+	width:80%;
+    height: 3px;
+    background-color: #7e7e7e;
+    border-style: none;
+    float: left;
+    margin-bottom: 15px;
+}
+.content-area-1 p {
+    font-size: 1.2em;
+    
+    margin-bottom: 25px;
+}
+
+.sidebar {
+    margin-top: -80px;
+    position: relative;
+}
+.sidebar h4 {
+    font-size: 2em;
+    
+}
+
+/*main-content Styles END*/
+
+
+
