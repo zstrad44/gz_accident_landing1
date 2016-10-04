@@ -133,13 +133,12 @@ hr {
 
 
 .contactBox {
-    position: absolute;
+    position: relative;
     display: block;
-    left: 20%;
-    top: 580px;
+    margin-top: -300px;
+    width: 320px;
     background-color: #d3d3d3;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    
     border-radius: 20px;
     padding: 24px;
 }
@@ -153,7 +152,7 @@ hr {
     background-color: #CD5C5C;
     text-align: center;
     color: #efefef;
-    font-size: 2.1em;
+    font-size: 2.9em;
     border-radius: 10px 10px 0 0px;
 }
 
@@ -167,7 +166,7 @@ hr {
 
 .formBox {
     background-color: #f8f8f8;
-    width: 300;
+    width: 300px;
     margin: -15px;
     padding: 15px;
     border-radius: 12px;
@@ -236,13 +235,14 @@ hr {
 .subheadline h2 {
     
     margin-top: -20px;
-    font-size: 2.9em;
-    background-color: #0081ba;
-    color: #fff;
+    font-size: 3.5em;
+    
+    color: #0081ba;
     width: 103%;
     padding-bottom: 17px;
+    margin-top: 3px;
     margin-left: -1.6%;
-    margin-bottom: -10px;
+    margin-bottom: 15px;
     border-radius: 5px 5px 0 0;
 }
 
@@ -347,6 +347,7 @@ hr {
     position: inherit;
     padding: 0px;
     margin: 0px;
+   
     
 }
 
@@ -356,7 +357,7 @@ hr {
 
 .main-content .content-area-1 {
     height: auto;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 0px;
     float: right;
 }
@@ -380,16 +381,32 @@ hr {
     margin-bottom: 25px;
 }
 
-.sidebar {
-    margin-top: -80px;
-    position: relative;
-}
-.sidebar h4 {
-    font-size: 2em;
-    
-}
+
 
 /*main-content Styles END*/
 
+.sidebar {
+    margin-top: 10px;
+    margin-left: -12px;
+    position: inherit;
+}
+.sidebarBox {
+    height: auto;
+    min-height: 300px;
+    width: 320px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    
+    
+}
+.sidebar h4 {
+    font-size: 2em;
+    padding: 4px;
+    background-color: #0081ba;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+
+}
 
 
