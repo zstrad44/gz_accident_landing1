@@ -20,11 +20,11 @@ var runCounter = function() {
 };
 
 
-$(document).ready(function(){
+//$(document).ready(function(){
 
 
 
         
 
     
-});
+//});
