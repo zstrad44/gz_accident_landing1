@@ -18,7 +18,7 @@
     .navbar-brand img {
         height: 120px;
     }
-    .shadow {
+    .shadow { 
         
         
     }
@@ -79,6 +79,13 @@
     .midBox {
 	width: auto;
 }
+    #ourTeam {
+        padding: 10px;
+    }
+    #team {
+        padding: 10px 5px;
+        margin-bottom: 20px;
+    }
     
     
 }
@@ -259,8 +266,13 @@
         border-radius: 12px;
         border-style: inset;
     }
-    
-    
+    #afterAccident {
+        padding: 20px;
+    }
+    #afterAccident h2 {
+        font-size: 1.8em;
+    }
+   
     
 }
 
@@ -277,6 +289,16 @@
     .midBox h1 {
 	font-size: 1.6em;
     }
+    
+    #afterAccident h2 {
+        font-size: 1.6em;
+    }
+    #ourTeam {
+        padding: 10px;
+    }
+    #team {
+        padding: 10px 5px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -292,6 +314,28 @@
     #whatToDo {
 	padding: 50px 20px;
     }
+    #about ul {
+        margin: 2em 0px;
+    }
+    #about li {
+        margin: .8em 1em;
+    }
+    #about li:before {
+        margin-left: -20px
+    }
+    
+    #afterAccident h2 {
+        font-size: 1.3em;
+    }
+    #afterAccident ul {
+        margin: 0;
+        
+    }
+    #afterAccident li {
+        margin: 1em 1em;
+        margin-top: 0;
+    }
+
     
     #recent-wins h2 {
         font-size: 2em;

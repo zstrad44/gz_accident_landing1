@@ -441,6 +441,32 @@ h2 .highlight{
     font-size: 1.2em;
 }
 
+#about ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#about ul {
+    margin: 2em 0;
+
+}
+
+#about li {
+    font-size: 1.5em;
+    text-align: left;
+    margin: .5em 0px;
+    margin-left: 2.5em;
+}
+
+#about li:before {
+    content: '\f0da';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: #0081ba;
+}
+
 #about button {
     margin-top: -25px;
     margin-left: 25%;
@@ -489,7 +515,7 @@ font-size: 3em;
 .midBox {
     background-color: #fff;
     padding: 30px 20px;
-    width: 70%;
+    width: 80%;
     font-size: 1.35em;
     font-weight: 400;
     text-decoration: none;
@@ -498,24 +524,24 @@ font-size: 3em;
 	
 }
 
-#practiceAreas h2 {
+#afterAccident h2 {
     color: #fff;
     font-size: 2.4em;
     padding: 0;
     margin-top: 7px;
 }
 
-#practiceAreas h4 {
+#afterAccident h4 {
     font-size: 1.9em;
     color: #000;
     padding: 0;
 }
-.practiceAreaHeadBox h3 {
+.afterAccidentHeadBox h3 {
     margin-top: -2px;
     color: #a8a8a8;
 }
 
-.practiceAreaHeadBox {
+.afterAccidentHeadBox {
     
     background-color: rgba(0, 0, 0, 0.70);
     padding: .1% 0;
@@ -526,7 +552,7 @@ font-size: 3em;
     
 }
 
-#practiceAreas p {
+#afterAccident p {
     
     margin: 0 10px;
     padding: 0 20px;
@@ -537,6 +563,48 @@ font-size: 3em;
     text-indent: 20px;
         
 }
+#afterAccident img { 
+    float: right;
+    margin: 0px 0px 15px 20px;
+    max-width: 500px;
+    width: auto;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+#afterAccident ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#afterAccident ul {
+    margin: 2em 0;
+    
+}
+
+#afterAccident li {
+    font-size: 1.4em;
+    text-align: left;
+    margin: 1em;
+    margin-left: 3em;
+}
+#afterAccident li:before {
+    content: '\f0da';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: #0081ba;
+}
+#afterAccident button {
+    margin: 0 auto;
+    width: auto;
+    background-color: #0081ba;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-left: -10px;
+}
+
 #recentCases {
     padding: 20px;
 }
